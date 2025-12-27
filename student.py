@@ -8,8 +8,8 @@ def student_details(usn,name,divison,age):
     return result
 
 if __name__ == "__main__":
-    usn= "306"
-    name = "Zaid"
-    divsion = "E"
-    age = "19"
-    print(student_details(usn,name,divsion,age))
+    usn = input("Enter Student USN: ")
+    name = input("Enter Student Name: ")
+    divison = input("Enter Division : ")
+    age = input("Enter Student age: ")
+    print(student_details(usn,name,divison,age))
